@@ -1,0 +1,13 @@
+dbt_snowflake_poc:
+  outputs:
+    dev:
+      account: lcbjqux-u***1
+      database: ANALYTICS
+      password: '***'
+      role: ACCOUNTADMIN
+      schema: DBT_HSWARUP
+      threads: 2
+      type: snowflake
+      user: HSWARUP
+      warehouse: COMPUTE_WH
+  target: dev
